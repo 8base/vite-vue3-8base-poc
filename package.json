@@ -1,0 +1,24 @@
+{
+  "name": "vite-vue-8base-app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@8base/auth": "^2.6.6",
+    "@apollo/client": "^3.6.8",
+    "@vue/apollo-option": "^4.0.0-alpha.17",
+    "graphql-request": "^4.3.0",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.9"
+  }
+}
