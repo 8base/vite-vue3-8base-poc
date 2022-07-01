@@ -20,18 +20,6 @@ const router = createRouter({
       name: "home",
       component: Home
     },
-    // {
-    //   path: "/profile",
-    //   name: "profile",
-    //   component: Profile,
-    //   meta: { requiresAuth: true }
-    // },
-    // {
-    //   path: "/about",
-    //   name: "about",
-    //   component: () =>
-    //     import(/* webpackChunkName: "about" */ "./views/About.vue")
-    // },
     {
       path: "/auth/callback",
       name: "callback",

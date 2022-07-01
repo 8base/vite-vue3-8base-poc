@@ -20,5 +20,10 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
     "vite": "^2.9.9"
+  },
+  "overrides": {
+    "graphql-prettier": {
+      "graphql": ">=15.0.0"
+    }
   }
 }

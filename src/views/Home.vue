@@ -3,7 +3,7 @@
   <div v-if="authenticated">
     <h1>You're Logged in!</h1>
 
-    <!-- <code>{{ prettifyResp }}</code> -->
+    <code>{{ prettifyResp }}</code>
   </div>
 
   <h1 v-else>

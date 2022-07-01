@@ -21,15 +21,6 @@
     <h1>Vite + VueJS ❤️ 8base</h1>
 
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link
-      to="/profile"
-      :class="profileBtn.class"
-      :event="profileBtn.event"
-    >
-      Profile
-    </router-link>
-    -
 
     <!-- Display SignIn/SignOut btn dynamically -->
     <button @click="authBtn.fn">{{ authBtn.txt }}</button>

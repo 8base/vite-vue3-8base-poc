@@ -7,13 +7,16 @@ import store from "../../store";
  * 'web_8base_cognito' will configure the 8base auth client.
  */
 
+const domain = import.meta.env.VITE_AUTH_DOMAIN
+const clientId = import.meta.env.VITE_AUTH_CLIENT_ID
+
 export const auth = Auth.createClient(
   {
     strategy: AUTH_STRATEGIES.WEB_8BASE_COGNITO,
   },
   {
-    domain: import.meta.env.VITE_APP_AUTH_DOMAIN,
-    clientId: import.meta.env.VITE_APP_AUTH_CLIENT_ID,
+    domain,
+    clientId,
     logoutRedirectUri: `${window.location.origin}/logout`,
     redirectUri: `${window.location.origin}/auth/callback`,
   }

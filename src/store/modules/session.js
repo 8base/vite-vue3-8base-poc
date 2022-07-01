@@ -106,7 +106,7 @@ const actions = {
           user: {
             email: authResult.email,
           },
-          authProfileId: process.env.VUE_APP_AUTH_PROFILE_ID
+          authProfileId: import.meta.env.VITE_AUTH_CLIENT_ID
         },
         context
       });
